@@ -1,0 +1,56 @@
+﻿body {
+    background-image:url(http://localhost:5634/Images/pro.jpg);
+    background-size:cover;
+}
+.Loginn {
+    width:350px;
+    height:270px;
+    background-color:rgba(0,0,0,0.5);
+    margin:auto;
+    margin-top:160px;
+    margin-left:650px;
+    padding-top:20px;
+    padding-left:40px;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -o-border-radius:15px;
+    -moz-border-radius:15px;
+    color:white;
+    font-weight:bolder;
+    box-shadow:inset -4px -4px rgba(0,0,0,0.5);
+    font-size:20px;
+}
+.Loginn input[type="text"] {
+     width:200px;
+     height:35px;
+     border:0;
+     border-radius:5px;
+     -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    padding-left:5px;
+    }
+.Loginn input[type="password"] {
+     width:200px;
+     height:35px;
+     border:0;
+     border-radius:5px;
+     -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    padding-left:5px;
+    }
+.Button {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width:100px;
+    height:35px;
+    border-radius:5px;
+     -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    background-color:skyblue;
+    font-weight:bolder;
+   margin-left:100px;
+}

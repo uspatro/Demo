@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="master.master.cs" Inherits="master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Master</title>
+    <link href="masterstyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {}
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="con">
+            <span id="Head">TECHNOLEARN TRAININGS</span>
+            <%--<div id="menu">
+                <ul>
+                    <li><a href="" >Enquiry</a></li>
+                    <li><a href="" >Contact Us</a></li>
+                </ul>
+            </div>--%>
+       
+            <div id="position">
+                <marquee bahevior="alternate">                
+              
+                <asp:Image ID="Image2" Width="150" Height="150" ImageUrl ="~/Images/tech1.jpg" runat="server" />
+                <asp:Image ID="Image3" Width="150" Height="150" ImageUrl="~/Images/tech2.png" runat="server" />
+                
+                <asp:Image ID="Image5" Width="150" Height="150" ImageUrl ="~/Images/tech1.jpg" runat="server" />
+                <asp:Image ID="Image6" Width="150" Height="150" ImageUrl="~/Images/tech2.png" runat="server" />
+
+                     <asp:Image ID="Image1" Width="150" Height="150" ImageUrl ="~/Images/tech1.jpg" runat="server" />
+                <asp:Image ID="Image4" Width="150" Height="150" ImageUrl="~/Images/tech2.png" runat="server" />
+                
+                <asp:Image ID="Image7" Width="150" Height="150" ImageUrl ="~/Images/tech1.jpg" runat="server" />
+                <asp:Image ID="Image8" Width="150" Height="150" ImageUrl="~/Images/tech2.png" runat="server" /></marquee>
+   
+            </div>
+            <div id="login">
+                <span>Account Portion</span><br><br>
+                </div>
+                <div id="sign"> 
+                    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="auto-style1" PostBackUrl="~/signup.aspx">Enquiry</asp:LinkButton><br><br>
+                    <asp:LinkButton ID="LinkButton2" runat="server" CssClass="auto-style1" PostBackUrl="~/Contactus.aspx">Contact Us</asp:LinkButton>  
+                </div>
+            
+        
+    <div id="content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</div>
+        
+    </form>
+</body>
+</html>
